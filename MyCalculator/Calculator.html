@@ -1,0 +1,54 @@
+<!DOCTYPE html>  
+
+<html>  
+  <head>  
+      <title>calculate</title>  
+      <meta charset="UTF-8">  
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+      <link type="text/css" href="Calculator.css" rel="stylesheet">  
+      <script type="text/javascript" src="Calculator.js"></script>  
+  </head>  
+  <body onload="pageLoad()">  
+    <h1>简单计算器</h1> 
+    <div id="Button">
+        <div class="icon"></div>
+        <div id="calculate">  
+            <input type="text" id="show" value = '0' onfocus="this.blur()">  
+            <div id="keyboard">  
+                <table>  
+                    <tr>  
+                        <td class="keyButton">7</td>  
+                        <td class="keyButton">8</td>  
+                        <td class="keyButton">9</td>  
+                        <td class="keyButton Special">/</td>  
+                    </tr>  
+                    <tr>  
+                        <td class="keyButton">4</td>  
+                        <td class="keyButton">5</td>  
+                        <td class="keyButton">6</td>  
+                        <td class="keyButton Special">*</td>  
+                    </tr>  
+                    <tr>  
+                        <td class="keyButton">1</td>  
+                        <td class="keyButton">2</td>  
+                        <td class="keyButton">3</td>  
+                        <td class="keyButton Special">-</td>  
+                    </tr>  
+                    <tr>  
+                        <td class="keyButton">0</td>  
+                        <td class="keyButton">.</td>  
+                        <td id="deleteNumber" class="Special"><-</td>  
+                        <td class="keyButton Special">+</td>  
+                    </tr>
+                    <tr>  
+                        <td class="keyButton">(</td>  
+                        <td class="keyButton">)</td>
+                        <td class = "ACkeyButton Special">CE</td>  
+                        <td id="calculateResult" class="Special">=</td>
+                    </tr>
+                </table>  
+            </div>  
+        </div> 
+    </div>
+  </body>  
+</html>  
